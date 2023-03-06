@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@700&display=swap');
+@font-face {
+    font-family: 'Gazeta Text Italic';
+    src: url("./fonts/GazetaText/GAZETATEXTITALIC.TTF");
+  }
+@font-face {
+    font-family: 'Gazeta Text';
+    src: url("./fonts/GazetaText/GAZETATEXT.TTF");
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0;
+    background-color: rgb(241, 229, 203);
+    padding-bottom: 100dvi;
+  }
+
+.container {
+    padding: 0 150px 0 150px ;
+}
+
+header{
+    align-items: center;
+}
+
+h1{
+    font-family: 'Libre Bodoni', serif;
+    font-size: 6em;
+    text-align: center;
+    margin: 0.3em 0;
+}
+
+hr {
+    border-color: rgb(230, 218, 177);
+    border-style: solid;
+}
+
+p {
+    font-family: 'Gazeta Text Italic';
+    font-size: 1.5em;    text-align: justify;
+    text-indent: 1em;
+}
+
+i {
+    font-family: 'Gazeta Text';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.content {
+    padding: 0 50px;
+}
